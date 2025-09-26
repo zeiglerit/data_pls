@@ -1,0 +1,31 @@
+data_pipelines/
+├── README.md
+├── jupyter/
+│   ├── fraud_detection.ipynb
+│   ├── llm_training.ipynb
+│   ├── tensorflow_pipeline.ipynb
+│   └── utils/
+│       └── data_loader.py
+├── azure/
+│   ├── main.bicep
+│   ├── parameters/
+│   │   └── main.bicepparam
+│   ├── modules/
+│   │   ├── storage.bicep
+│   │   ├── eventhub.bicep
+│   │   ├── mlworkspace.bicep
+│   │   ├── compute.bicep
+│   │   └── monitoring.bicep
+│   └── pipelines/
+│       └── deploy.yml
+├── models/
+│   ├── fraud_detector/
+│   │   └── saved_model.pb
+│   ├── llm/
+│   │   ├── tokenizer_config.json
+│   │   └── pytorch_model.bin
+│   └── tensorflow/
+│       └── saved_model/
+├── scripts/
+│   ├── build_and_push.sh
+│   └── deploy_model.py
