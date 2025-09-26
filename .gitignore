@@ -1,0 +1,10 @@
+# .gitignore
+models/*
+!models/.gitkeep
+
+*.ipynb_checkpoints/
+*.log
+*.h5
+*.bin
+__pycache__/
+.env

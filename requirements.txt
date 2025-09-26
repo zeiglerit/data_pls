@@ -1,0 +1,8 @@
+tensorflow>=2.13
+scikit-learn
+xgboost
+pandas
+numpy
+matplotlib
+transformers
+azure-ai-ml
